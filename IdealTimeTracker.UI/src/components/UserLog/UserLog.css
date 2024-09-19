@@ -1,0 +1,61 @@
+.log-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 2rem;
+}
+.log-date-container {
+  margin-left: auto;
+  margin-top: 2rem;
+  padding: 0.5rem;
+}
+
+.log-date {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: 600;
+}
+
+.log-arrow {
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.log-arrow:hover {
+  cursor: pointer;
+}
+
+.log-btn {
+  align-self: end;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.log-content {
+  padding: 1rem;
+}
+
+.log-absent {
+  background-color: red;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.log-present {
+  background-color: green;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.user-log-pagination {
+  padding: 10px;
+  display: flex;
+  justify-content: end;
+}

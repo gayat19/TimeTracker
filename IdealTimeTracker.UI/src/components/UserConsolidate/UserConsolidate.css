@@ -1,0 +1,66 @@
+.consolidate-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 2rem;
+}
+.consolidate-date-container {
+  margin-left: auto;
+  margin-top: 2rem;
+  padding: 0.5rem;
+}
+
+.consolidate-date {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: 600;
+}
+
+.consolidate-date-text {
+  font-size: 1.05rem;
+}
+
+.consolidate-arrow {
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.consolidate-arrow:hover {
+  cursor: pointer;
+}
+
+.consolidate-btn {
+  align-self: end;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.consolidate-content {
+  padding: 1rem;
+}
+
+.consolidate-absent {
+  background-color: red;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.consolidate-present {
+  background-color: green;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.user-consolidate-pagination {
+  padding: 10px;
+  display: flex;
+  justify-content: end;
+}

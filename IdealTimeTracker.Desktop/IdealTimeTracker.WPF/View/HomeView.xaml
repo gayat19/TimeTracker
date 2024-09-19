@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="IdealTimeTracker.WPF.View.HomeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:IdealTimeTracker.WPF.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="450">
+    <Grid Margin="18,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition  Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock VerticalAlignment="Center" FontSize="20px" Grid.Row="0" Grid.Column="0" Text="{Binding EmpId}"/>
+        <Ellipse  VerticalAlignment="Center" HorizontalAlignment="Left"  Width="20" Height="20" Fill="{Binding Color}" Grid.Column="1" Margin="10,0,0,0" RenderTransformOrigin="0.91,0.43"/>
+        <Button VerticalAlignment="Center"  FontSize="20px" HorizontalAlignment="Right" Grid.Row="0" Grid.Column="2" BorderThickness="0" Background="Transparent" Height="30" Width="30"  Command="{Binding LogoutCommand}" Cursor="Hand">
+            <Image Source="../Asset/logout.png" Height="30" Margin="0" />
+        </Button>
+
+        <!-- Second Row -->
+        <TextBlock Grid.ColumnSpan="3" VerticalAlignment="Bottom" HorizontalAlignment="Center" Grid.Row="1" Text="{Binding Date}"/>
+
+        <!-- Third Row -->
+        <TextBlock  Grid.ColumnSpan="3" Grid.Row="2" HorizontalAlignment="Center" Text="{Binding Time}" FontSize="72"/>
+    </Grid>
+</UserControl>

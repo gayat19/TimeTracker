@@ -1,0 +1,53 @@
+.log-detail-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 2rem;
+}
+.log-detail-date-container {
+  margin-left: auto;
+  margin-top: 2rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.log-detail-date {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: 600;
+}
+
+.log-detail-arrow {
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.log-detail-arrow:hover {
+  cursor: pointer;
+}
+
+.log-detail-content {
+  padding: 1rem;
+}
+
+.log-detail-absent {
+  background-color: red;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.log-detail-present {
+  background-color: green;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+}

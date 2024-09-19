@@ -1,0 +1,26 @@
+.user-header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  flex-wrap: wrap;
+  color: var(--secondary-color);
+}
+
+.user-btn {
+  margin-left: auto;
+  align-self: end;
+}
+
+.user-content {
+  padding: 1rem;
+}
+
+.table-action:hover {
+  cursor: pointer;
+}
+
+.user-pagination {
+  padding: 10px;
+  display: flex;
+  justify-content: end;
+}

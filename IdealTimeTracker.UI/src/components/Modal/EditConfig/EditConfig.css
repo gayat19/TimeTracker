@@ -1,0 +1,50 @@
+.update-config-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.config-time-input {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.config-time-input-time {
+  width: 300px;
+  font-size: 16px;
+  text-align: center;
+  justify-self: center;
+}
+
+.slider-values {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.min-inputs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.min-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.min-input > TextField input {
+  width: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}

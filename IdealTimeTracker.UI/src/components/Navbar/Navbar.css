@@ -1,0 +1,26 @@
+.nav-container {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  position: sticky;
+  align-items: center;
+  padding: 0rem 2rem;
+  background-color: var(--secondary-color);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.nav-items {
+  margin-left: auto;
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  flex-wrap: wrap;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nav-container a {
+  text-decoration: none;
+  color: white;
+}

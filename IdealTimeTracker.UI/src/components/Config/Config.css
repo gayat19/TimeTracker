@@ -1,0 +1,20 @@
+.config-header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  flex-wrap: wrap;
+  color: var(--secondary-color);
+}
+
+.config-btn {
+  margin-left: auto;
+  align-self: end;
+}
+
+.config-content {
+  padding: 1rem;
+}
+
+.table-action:hover {
+  cursor: pointer;
+}

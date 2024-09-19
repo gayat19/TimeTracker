@@ -1,0 +1,13 @@
+:root {
+  --primary-color: #f3f3f3;
+  --secondary-color: #2771b8;
+  /* --secondary-color: #c6595e; */
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--primary-color);
+}

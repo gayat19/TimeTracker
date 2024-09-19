@@ -1,0 +1,18 @@
+.add-activity-form {
+  padding: 1rem;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.add-activity-items {
+  min-width: 350px !important;
+}
+
+@media screen and (max-width: 500px) {
+  .add-activity-items {
+    min-width: auto !important;
+  }
+}
+
